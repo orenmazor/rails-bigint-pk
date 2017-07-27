@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "activerecord", ">= 4.2", "< 5.1"
-  s.add_dependency "railties", ">= 4.2", "< 5.1"
+  s.add_dependency "railties", ">= 4.2", "< 5.2"
 
   s.add_development_dependency "mysql2"
   s.add_development_dependency "pg"
